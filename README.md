@@ -2,11 +2,11 @@
 #include <stdlib.h>
 #include <time.h>
 
-#define WIDTH 400
+#define WIDTH 40
 #define HEIGHT 20
 
 void drawDoodle() {
-    char doodleChars[] = {'*', '#', '@', '%', '&', '+', '='};
+    char doodlenum[] = {'*', '#', '@', '%', '&', '+', '='};
     int num = sizeof(doodleChars) / sizeof(doodleChars[0]);
 
     srand(time(0)); // Seed the random number generator
