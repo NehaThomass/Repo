@@ -1,8 +1,8 @@
-#include <stdio.h>
+# <stdio.h>
 #include <stdlib.h>
 #include <time.h>
 
-#define WIDTH 40
+#define WITH 40
 #define HEIGHT 20
 
 void drawDoodle() {
