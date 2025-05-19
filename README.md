@@ -1,10 +1,10 @@
 
 # include<stdio.h>
-#include <stdlib.h>
+#include <stdio.h>
 #include <time.h>
 
-#define WIDTH 40 
-#define HEIGHT 20
+#define WIDTH 400 
+#define HEIGHT 200
 
 void drawDoodle() {
     char doodlenum[] = {'*', '#', '@', '%', '&', '+', '='};
